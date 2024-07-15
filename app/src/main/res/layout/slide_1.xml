@@ -16,9 +16,11 @@
         android:src="@drawable/wave" />
 
     <!-- Foreground Image as Background -->
+    <!-- Foreground Content -->
+
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="415dp"
+        android:layout_width="409dp"
         android:layout_height="212dp"
         android:layout_gravity="top|center_horizontal"
         android:layout_marginStart="115dp"
@@ -26,7 +28,7 @@
         android:layout_marginEnd="110dp"
         android:contentDescription="Welcome Image"
         android:src="@drawable/wel_t1" />
-    <!-- Foreground Content -->
+
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
@@ -58,19 +60,18 @@
             android:textColor="@android:color/darker_gray"
             android:textSize="18sp"
             android:textStyle="bold" />
-
     </LinearLayout>
 
+    <!-- Button positioned at bottom right -->
     <Button
         android:id="@+id/nextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="160dp"
-        android:layout_marginTop="700dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="20dp"
         android:backgroundTint="@android:color/white"
-        android:gravity="center"
-        android:onClick="onNextButtonClick"
         android:text="Next"
-        android:textColor="@android:color/holo_purple" /> <!-- Button click action defined here -->
+        android:textColor="@android:color/holo_purple"
+        android:onClick="onNextButtonClick" />
 
 </FrameLayout>

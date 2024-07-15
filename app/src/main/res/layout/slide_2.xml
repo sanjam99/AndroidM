@@ -45,7 +45,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="300dp"
             android:gravity="left"
-            android:text="Welcome to our\nDocument Scanner!"
+            android:text="Effortless Scanning"
             android:textColor="@android:color/black"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -56,7 +56,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:gravity="left"
-            android:text="Digitize your paperwork effortlessly\nwith our cutting-edge document\nscanner."
+            android:text="Simplify your document management\nwith our intuitive scanner, ensuring\nseamless digitization for your paperwork\nwith just a few clicks"
             android:textColor="@android:color/darker_gray"
             android:textSize="18sp"
             android:textStyle="bold" />
