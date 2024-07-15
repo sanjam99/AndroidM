@@ -27,7 +27,7 @@
         android:layout_marginTop="50dp"
         android:layout_marginEnd="110dp"
         android:contentDescription="Welcome Image"
-        android:src="@drawable/wel_t2" />
+        android:src="@drawable/wel_t4" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -45,7 +45,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="300dp"
             android:gravity="left"
-            android:text="Welcome to our\nDocument Scanner!"
+            android:text="Convenient Printing and\nDelivery Services"
             android:textColor="@android:color/black"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -56,7 +56,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:gravity="left"
-            android:text="Digitize your paperwork effortlessly\nwith our cutting-edge document\nscanner."
+            android:text="Enjoy the ease of having your\ndocument printed and promptly\ndelivered right to your doorstep,\nensuring hassle-free access to your\nmaterials"
             android:textColor="@android:color/darker_gray"
             android:textSize="18sp"
             android:textStyle="bold" />
