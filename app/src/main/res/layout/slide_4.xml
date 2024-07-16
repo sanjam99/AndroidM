@@ -9,7 +9,7 @@
     <ImageView
         android:id="@+id/waveImageView"
         android:layout_width="match_parent"
-        android:layout_height="473dp"
+        android:layout_height="553dp"
         android:layout_gravity="bottom"
         android:contentDescription="Wave Background"
         android:scaleType="fitXY"
@@ -20,7 +20,7 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="409dp"
+        android:layout_width="415dp"
         android:layout_height="212dp"
         android:layout_gravity="top|center_horizontal"
         android:layout_marginStart="115dp"
